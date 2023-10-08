@@ -1,0 +1,85 @@
+body {
+  font-size: 20px;
+  background-color: rgba(255, 217, 0, 0.267);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.active {
+  color: rgb(68, 96, 223);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 40px;
+}
+
+.no_active {
+  text-decoration: none;
+  color: gold;
+  font-size: 30px;
+  margin: 40px 0px;
+}
+
+.card {
+  width: 18rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.card-title {
+  text-transform: capitalize;
+  font-size: larger;
+  font-weight: 600;
+  color: rgb(206, 6, 6);
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.select-box {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-search {
+  margin-top: 10px;
+}
+
+.title-pokemones {
+  color: rgb(68, 96, 223);
+  margin-bottom: 50px;
+}
+
+.gif {
+  display: block;
+  justify-content: center;
+  width: auto;
+  /* Ajusta el tamaño del gif según tus preferencias */
+  margin-right: 10px;
+  /* Espacio entre el gif y el texto (opcional) */
+}
+
+.home {
+  background-image: url("https://images7.alphacoders.com/592/592678.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+option{
+  text-transform: capitalize;
+  text-align: center;
+}
